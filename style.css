@@ -179,3 +179,137 @@
         grid-template-rows: 1fr;
     }
 }
+
+/* Azizbek's part */
+
+/* Contact section style */
+.contact{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(	https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png);
+    background-color: #212529;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.contact-wrapper{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-header h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.contact-header p{
+    color:grey;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    margin: 10px;
+    width: 400px;
+    height: 220px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+::placeholder{
+    color: rgb(207, 201, 201);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+::placeholder:hover{
+    border: none;
+    cursor: none;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=button]{
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.contact-button{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 25px;
+    font-size: 1.2em;
+    background-color: #fed136;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.contact-button:hover{
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.social{
+    display: flex;
+}
+
+.tw, .fb, .in{
+    padding: 15px 17px;
+    border-radius: 50%;
+    background-color: #212529;
+    color: white;
+    margin: 10px;
+}
+
+.tw:hover{
+    cursor: pointer;
+}
+.fb:hover{
+    cursor: pointer;
+}
+
+.in:hover{
+    cursor: pointer;
+}
+
+.privacy, .terms{
+    text-decoration: none;
+    color: #fed136;
+    padding-left: 15px;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.privacy:hover{
+    text-decoration: underline;
+}
