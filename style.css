@@ -23,6 +23,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px 0 50px;
+  position: sticky;
+  top: 2px;
 }
 .logo-ma a {
   display: block;
@@ -59,7 +61,7 @@
 .italic {
   font-family: "Raleway", sans-serif;
   padding-right: 100px;
-  padding-left: 16rem;
+  padding-left: 16rem;   
 }
 .strong-bg {
   font-family: "Montserrat", sans-serif;
@@ -74,6 +76,8 @@
   text-decoration: none;
   margin-left: 25rem;
   border-radius: 10px;
+  /* width: 50%;
+  margin: auto; */
 }
 .btn-ma:hover {
   background-color: #dddddd;
@@ -103,6 +107,7 @@
     display: block;
     margin: 5rem 5rem;
     text-align: center;
+
   }
 }
 @media (max-width: 480px) {
@@ -117,6 +122,12 @@
 }
 
 /* ---------------Oxana's part --------------- */
+
+
+.oxana {
+    padding: 50px 0;
+}
+
 .box-oy {
     background: var(--primary);
     text-align: center;
