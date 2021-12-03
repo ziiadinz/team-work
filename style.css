@@ -23,6 +23,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px 0 50px;
+  position: sticky;
+  top: 2px;
 }
 .logo-ma a {
   display: block;
@@ -117,6 +119,10 @@
 }
 
 /* ---------------Oxana's part --------------- */
+.oxana {
+    padding: 50px 0;
+}
+
 .box-oy {
     background: var(--primary);
     text-align: center;
