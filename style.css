@@ -348,6 +348,25 @@
     }
 }
 
+/* --------------- Aidar's part -------------- */
+.card {
+    background-color: rgb(31, 22, 22);
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display:flex;
+  }
+  
+  .card {
+    display:inline-block;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+  }
+
+
 /* Azizbek's part */
 
 /* Contact section style */
