@@ -116,6 +116,58 @@
 
 }
 
+/* ---------------Oxana's part --------------- */
+.box-oy {
+    background: var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+  }
+
+  .serv {
+      text-align: center;
+      font-size: 38px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-bottom: 15px;
+  }
+
+  .descript {
+      text-align: center;
+      font-style: italic;
+      color: gray;
+      font-size: 17px;
+  }
+
+  .boxes-oy {
+      display: flex;
+      margin-top: 30px;
+
+  }
+
+  .img-oy {
+      width: 120px;
+  }
+
+  .hoy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+
+  .light {
+      color: gray;
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 28px;
+  }
+
+  @media (max-width:480px), (max-width:768px) {
+        .boxes-oy {
+        display: flex;
+        flex-direction: column;
+      }
+  }
 
 /* <!-- ------------------------------------Zarina------------------------- --> */
 
