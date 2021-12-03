@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* <!-- ------------------------------------Aiperi------------------------- --> */
@@ -424,11 +425,11 @@ input[type=text], input[type=email], input[type=tel], input[type=button]{
 .privacy:hover{
     text-decoration: underline;
     
-/* ----------------Venera's part--------- */
-    
 .us-map {
+    
     height: 100vh;
     width: 100%;
+
 }
 
 .office-locations {
