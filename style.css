@@ -423,9 +423,11 @@ input[type=text], input[type=email], input[type=tel], input[type=button]{
 }
 
 .privacy:hover{
-    text-decoration: underline;
-    
-.us-map {
+    text-decoration: underline;   
+}
+
+/* --------------Veneras part------------------ */
+    .kg-map {
     
     height: 100vh;
     width: 100%;
