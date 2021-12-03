@@ -1,10 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:wght@100;400&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Kaushan+Script&family=Lato:wght@300;400&family=Montserrat:wght@400;700&family=Raleway:ital@1&family=Work+Sans&display=swap");
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* <!-- ------------------------------------Aiperi------------------------- --> */
+
+.wrapper-ma {
+  background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.conteiner-ma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 50px;
+}
+.logo-ma a {
+  display: block;
+  color: #6166b3;
+  text-transform: uppercase;
+  font-size: 37px;
+  padding: 3rem;
+  position: sticky;
+  top: 0px;
+}
+.logo-ma a:hover {
+  color: rgb(171, 137, 202);
+  cursor: pointer;
+}
+
+.sm-titel {
+  color: #dddddd;
+  text-decoration: none;
+  padding-right: 70px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.sm-titel:hover {
+  color: rgb(171, 137, 202);
+}
+.conteiner-ma2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.titel-bg {
+  color: #dddddd;
+}
+.italic {
+  font-family: "Raleway", sans-serif;
+  padding-right: 100px;
+  padding-left: 16rem;
+}
+.strong-bg {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+.btn-ma {
+  padding-left: 16rem;
+  background-color: #6166b3;
+  color: white;
+  padding: 18px;
+  text-decoration: none;
+  margin-left: 25rem;
+  border-radius: 10px;
+}
+.btn-ma:hover {
+  background-color: #dddddd;
+  color: rgb(121, 91, 150);
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .conteiner-ma {
+    display: flex;
+    flex-direction: column;
+  }
+  .sm-titel {
+    display: block;
+    padding: 0.8rem 50rem;
+    font-size: 25px;
+    text-align: center;
+  }
+  .conteiner-ma2 {
+    margin: 2rem auto;
+  }
+  .strong-bg {
+    text-align: center;
+    padding: 5px;
+  }
+  .btn-ma {
+    display: block;
+    margin: 5rem 5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .italic {
+    padding: 0 60px;
+  }
+  .strong-bg {
+    font-size: 44px;
+    padding-top: 45px;
+  }
+>>>>>>> header2
+}
+
+
 /* <!-- ------------------------------------Zarina------------------------- --> */
 
 
@@ -312,4 +423,3 @@ input[type=text], input[type=email], input[type=tel], input[type=button]{
 
 .privacy:hover{
     text-decoration: underline;
-}
