@@ -423,3 +423,124 @@ input[type=text], input[type=email], input[type=tel], input[type=button]{
 
 .privacy:hover{
     text-decoration: underline;
+    
+/* ----------------Venera's part--------- */
+    
+.us-map {
+    
+    height: 100vh;
+    width: 100%;
+
+}
+
+.office-locations {
+    position: relative;
+
+}
+
+.bishkek {
+    position: absolute;
+    top: 21.3%;
+    left: 47.8%;
+}
+
+.jalal-abad {
+    position: absolute;
+    top: 53.4%;
+    left: 35.25%;
+}
+
+.balykchy {
+    position: absolute;
+    top: 27.5%;
+    left: 76.7%;
+}
+
+.office img {
+    border: 5px solid darkgrey;
+    border-radius: 15px;
+}
+
+.office i{
+    color: rgb(216, 46, 34);
+
+     /* Animation */
+    animation: myScale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.office:hover .image-info-bishkek {
+    display: block;
+}
+
+.office .image-info-bishkek {
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+.office:hover .image-info-jalal {
+    display: block;
+}
+
+
+.office .image-info-jalal {
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:none;
+
+}
+
+.office:hover .image-info-balyk {
+    display: block;
+}
+
+
+.office .image-info-balyk {
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:none;
+
+}
+
+.office h1 {
+    text-align: center;
+    color: green;
+    background-color: rgb(214, 214, 214);
+    border-radius: 11px;
+    padding: 3px 0;
+}
+
+.text-anime {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+
+/* Animation  */
+    animation: myColorAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes myColorAnimation{
+    0%{color:rgb(221, 221, 92);}
+    20%{color:rgb(65, 199, 65);}
+    40%{color:rgb(52, 166, 211);}
+    60%{color:rgb(43, 97, 214);}
+    80%{color:rgb(190, 55, 179);}
+    100%{color:rgb(217, 233, 146);} 
+}
+    
+@keyframes myScale {
+    50%{transform: scale(1.15, 1.15);}
+
+}
